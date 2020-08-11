@@ -32,7 +32,7 @@ letter-spacing:1px;font-weight:normal;
 background:#6B6866;
 text-shadow:1px 1px 1px #333;letter-spacing:.5px;border-radius:2px;
 text-transform:uppercase} /* Header is also in single page */
-#headerContent a{color:#FFF} /* See myTheme.rftTitle in _cedec_js.js */
+#headerContent a{color:#FFF} /* See myTheme.rftTitle in cedec_js.js */
 #header h1{margin:0;font-size:1em}
 #nodeDecoration{border-radius:2px;text-align:left;padding:1em 20px;margin-bottom:2em;
 background:#6B6866;
@@ -126,7 +126,7 @@ li{list-style-position:outside}
 /* Hide/Show iDevice */
 .toggle-idevice{text-align:right;display:block}
 .iDevice_header .toggle-idevice{margin:0;position:absolute;right:15px;top:15px}
-.toggle-idevice a{display:inline-block;width:23px;height:23px;background:url(_cedec_icons.png) no-repeat 0 -23px;opacity:.6;filter:alpha(opacity=60)}
+.toggle-idevice a{display:inline-block;width:23px;height:23px;background:url(cedec_icons.png) no-repeat 0 -23px;opacity:.6;filter:alpha(opacity=60)}
 .toggle-idevice a:hover,.toggle-idevice a:focus{opacity:1;filter:alpha(opacity=100)}
 .toggle-em1 a{background-position:-23px -23px}
 .toggle-idevice .show-idevice{background-position:0 0}
@@ -140,7 +140,7 @@ li{list-style-position:outside}
 #packageLicense p{margin:20px 0}
 #packageLicense a{color:#444;text-decoration:underline}
 #packageLicense.propietary{position:absolute;overflow:hidden;clip:rect(0,0,0,0);height:0}
-#packageLicense.cc{padding:0 20px 0 110px;background:#F5F5F5 url(_cedec_licenses.gif) no-repeat 20px 5px}
+#packageLicense.cc{padding:0 20px 0 110px;background:#F5F5F5 url(cedec_licenses.gif) no-repeat 20px 5px}
 #packageLicense.cc-by-sa{background-position:20px -95px}
 #packageLicense.cc-by-nd{background-position:20px -195px}
 #packageLicense.cc-by-nc-sa{background-position:20px -295px}
@@ -157,7 +157,7 @@ li{list-style-position:outside}
 
 #printNode{margin:-14px 7px 0 0;text-align:right}
 #printNode.with-toggler{margin-bottom:-14px}
-#printNode a{font-size:.95em;background:url(_cedec_print.gif) no-repeat 0 50%;padding-left:26px}
+#printNode a{font-size:.95em;background:url(cedec_print.gif) no-repeat 0 50%;padding-left:26px}
 
 /* Accordion */
 .fx-accordion-title,.exe-accordion h2{background:#1E3F5D}
@@ -173,11 +173,11 @@ li{list-style-position:outside}
 .TrueFalseIdevice .feedback{margin-top:1.5em}
 
 /* Messages */
-.exe-block-warning{padding:0 1em 0 55px;background:#FCF8E3 url(_cedec_icon_warning.png) no-repeat 17px .9em;margin:1.5em 0}
-.exe-block-alert{padding:0 1em 0 55px;background:#ffc url(_cedec_icon_alert.png) no-repeat 17px .9em;margin:1.5em 0}
-.exe-block-danger{padding:0 1em 0 55px;background:#FEF0EF url(_cedec_icon_danger.png) no-repeat 17px .9em;margin:1.5em 0}
-.exe-block-info{padding:0 1em 0 55px;background:#E1F1F9 url(_cedec_icon_info.png) no-repeat 17px .9em;margin:1.5em 0}
-.exe-block-success{padding:0 1em 0 55px;background:#E5F3E0 url(_cedec_icon_success.png) no-repeat 17px .9em;margin:1.5em 0}
+.exe-block-warning{padding:0 1em 0 55px;background:#FCF8E3 url(cedec_icon_warning.png) no-repeat 17px .9em;margin:1.5em 0}
+.exe-block-alert{padding:0 1em 0 55px;background:#ffc url(cedec_icon_alert.png) no-repeat 17px .9em;margin:1.5em 0}
+.exe-block-danger{padding:0 1em 0 55px;background:#FEF0EF url(cedec_icon_danger.png) no-repeat 17px .9em;margin:1.5em 0}
+.exe-block-info{padding:0 1em 0 55px;background:#E1F1F9 url(cedec_icon_info.png) no-repeat 17px .9em;margin:1.5em 0}
+.exe-block-success{padding:0 1em 0 55px;background:#E5F3E0 url(cedec_icon_success.png) no-repeat 17px .9em;margin:1.5em 0}
 p.exe-block-warning,p.exe-block-alert,p.exe-block-danger,p.exe-block-info,p.exe-block-success{padding:1em 1em 1em 55px}
 
 /* Quote With Authorship */
@@ -187,12 +187,12 @@ p.exe-block-warning,p.exe-block-alert,p.exe-block-danger,p.exe-block-info,p.exe-
 
 /* PBL iDevice */
 body .pbl-task-info{line-height:2em;margin-top:-.4em;color:#666;text-align:left}
-dt.pbl-task-duration span{padding-left:32px;background:url(_cedec_pbl_duration.png) no-repeat 0 50%}
-dt.pbl-task-participants span{padding-left:32px;background:url(_cedec_pbl_participants.png) no-repeat 0 50%}
+dt.pbl-task-duration span{padding-left:32px;background:url(cedec_pbl_duration.png) no-repeat 0 50%}
+dt.pbl-task-participants span{padding-left:32px;background:url(cedec_pbl_participants.png) no-repeat 0 50%}
 
 #theme-iframe-text{display:none}
 #theme-iframe{display:none;width:100%;border:0}
-#theme-iframe-indicator{height:625px;padding-top:75px;background:url(_cedec_loading.gif) no-repeat 50% 25px;text-align:center}
+#theme-iframe-indicator{height:625px;padding-top:75px;background:url(cedec_loading.gif) no-repeat 50% 25px;text-align:center}
 #theme-iframe-indicator.error{padding-top:15px;height:685px;background:#FFF;text-align:left}
 
 @media print{
