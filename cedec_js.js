@@ -193,7 +193,7 @@ var myTheme = {
 				var e = $(this);
 				var html = e.html();
 				if (e.text()==html && html.indexOf("ventana nueva")==-1 && (!this.title || this.title.indexOf("ventana nueva")==-1)) {
-					var src = "cedec_external_link.png";
+					var src = "_cedec_external_link.png";
 					if (typeof(exe_style)!='undefined') src = exe_style.replace("content.css","") + src;
 					// Add a title (not required)
 					if (!this.title) this.title = "Se abre en ventana nueva";
