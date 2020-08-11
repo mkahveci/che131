@@ -1,6 +1,6 @@
 body{max-width:1280px;margin:0 auto;background:#FFF;padding:10px 0 0 0}
 #lbOverlay{background:#f3f3f3}
-#content{width:100%;margin:0 auto 10px auto;text-align:left;position:relative;padding-bottom:21px;background:#fff url(_cedec_left_column.gif) repeat-y 0 0}
+#content{width:100%;margin:0 auto 10px auto;text-align:left;position:relative;padding-bottom:21px;background:#fff url(cedec_left_column.gif) repeat-y 0 0}
 body.no-nav,.no-nav #content{background:#fff}
 #main-wrapper{padding:0 20px 0 300px}
 .no-nav #main-wrapper{padding-left:20px}
@@ -60,8 +60,8 @@ body.no-nav,.no-nav #content{background:#fff}
 #content{overflow:auto}
 
 #header-options{margin:0;position:absolute;top:6.7em;right:22px;font-size:.95em}
-#header-options a{font-size:.95em;margin-left:40px;background:url(_cedec_print.gif) no-repeat 0 50%;padding-left:26px;color:#003818}
-#header-options #toggle-nav{background-image:url(_cedec_menu.gif)}
+#header-options a{font-size:.95em;margin-left:40px;background:url(cedec_print.gif) no-repeat 0 50%;padding-left:26px;color:#003818}
+#header-options #toggle-nav{background-image:url(cedec_menu.gif)}
 
 @media all and (max-width: 768px) {
 	body{background:#fff}
