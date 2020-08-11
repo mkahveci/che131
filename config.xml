@@ -9,6 +9,6 @@
 	<description>Autores: Cristina Valdera (CeDeC) and Ignacio Gros (http://gros.es). iDevice icons by Francisco Javier Pulido Cuadrado.</description>
 	<extra-head><![CDATA[<meta name="viewport" content="width=device-width, initial-scale=1" />
 	]]></extra-head>
-	<edition-extra-head><![CDATA[<script type="text/javascript">if (typeof(exe_style)!='undefined' && exe_style.indexOf("content.css")!=-1) document.write('<scr'+'ipt type="text/javascript" src="'+exe_style.replace("content.css","cedec_js.js")+'"></scr'+'ipt>')</script>]]></edition-extra-head>
-	<extra-body><![CDATA[<script type="text/javascript" src="cedec_js.js"></script>]]></extra-body>
+	<edition-extra-head><![CDATA[<script type="text/javascript">if (typeof(exe_style)!='undefined' && exe_style.indexOf("content.css")!=-1) document.write('<scr'+'ipt type="text/javascript" src="'+exe_style.replace("content.css","_cedec_js.js")+'"></scr'+'ipt>')</script>]]></edition-extra-head>
+	<extra-body><![CDATA[<script type="text/javascript" src="_cedec_js.js"></script>]]></extra-body>
 </theme>
